@@ -1,5 +1,5 @@
 location                  = "westeurope"
-environment               = "dev"
+environment               = "prod"
 resource_group_name       = "rg-app"
 vnet_address_space        = ["10.10.0.0/16"]
 db_subnet_prefix          = ["10.10.1.0/24"]
