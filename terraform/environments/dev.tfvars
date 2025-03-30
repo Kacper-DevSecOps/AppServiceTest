@@ -1,0 +1,11 @@
+location                  = "westeurope"
+environment               = "dev"
+resource_group_name       = "rg-app"
+vnet_address_space        = ["10.10.0.0/16"]
+db_subnet_prefix          = ["10.10.1.0/24"]
+web_subnet_prefix         = ["10.10.2.0/24"]
+postgresql_sku_name       = "B_Gen5_1"
+postgresql_storage_mb     = 5120
+postgresql_version        = "11"
+app_service_plan_sku_name = "F1"
+python_version            = "3.10"
